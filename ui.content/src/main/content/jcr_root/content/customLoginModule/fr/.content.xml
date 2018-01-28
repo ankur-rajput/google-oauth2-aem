@@ -5,7 +5,7 @@
         cq:template="/conf/customLoginModule/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Français"
-        sling:resourceType="odule/components/structure/page"
+        sling:resourceType="custom-login-module/components/structure/page"
         pageTitle="Nouveau Project">
         <root
             jcr:primaryType="nt:unstructured"

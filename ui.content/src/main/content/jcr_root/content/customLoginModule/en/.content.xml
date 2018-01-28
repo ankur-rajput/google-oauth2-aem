@@ -7,7 +7,7 @@
         cq:template="/conf/customLoginModule/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"
-        sling:resourceType="odule/components/structure/page"
+        sling:resourceType="custom-login-module/components/structure/page"
         pageTitle="New Project"
         socialMedia="[facebook]">
         <root
@@ -20,20 +20,20 @@
                 <title
                     jcr:primaryType="nt:unstructured"
                     jcr:title="What is Lorem Ipsum?"
-                    sling:resourceType="odule/components/content/title"/>
+                    sling:resourceType="custom-login-module/components/content/title"/>
                 <text
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="odule/components/content/text"
+                    sling:resourceType="custom-login-module/components/content/text"
                     text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;br>&#xa;&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <image
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="odule/components/content/image"
+                    sling:resourceType="custom-login-module/components/content/image"
                     fileReference="/content/dam/customLoginModule/asset.jpg"/>
                 <list
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="odule/components/content/list"
+                    sling:resourceType="custom-login-module/components/content/list"
                     childDepth="1"
                     linkItems="true"
                     listFrom="static"
@@ -45,23 +45,23 @@
                 <helloworld
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="odule/components/content/helloworld"/>
+                    sling:resourceType="custom-login-module/components/content/helloworld"/>
                 <container
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="odule/components/form/container"
+                    sling:resourceType="custom-login-module/components/form/container"
                     action="/content/usergenerated/customLoginModule/en/cq-gen1506071823762/"
                     actionType="foundation/components/form/actions/store">
                     <text
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Lorem"
-                        sling:resourceType="odule/components/form/text"
+                        sling:resourceType="custom-login-module/components/form/text"
                         name="lorem"
                         rows="2"
                         type="text"/>
                     <options
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Where does it come from?"
-                        sling:resourceType="odule/components/form/options"
+                        sling:resourceType="custom-login-module/components/form/options"
                         name="come-from"
                         source="local"
                         type="checkbox">
@@ -80,12 +80,12 @@
                     </options>
                     <button
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="odule/components/form/button"/>
+                        sling:resourceType="custom-login-module/components/form/button"/>
                 </container>
                 <sharing
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="odule/components/content/sharing"/>
+                    sling:resourceType="custom-login-module/components/content/sharing"/>
             </responsivegrid>
         </root>
     </jcr:content>

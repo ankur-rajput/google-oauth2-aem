@@ -96,7 +96,7 @@
                         <embedded>
                             <groupId>edu.ttn</groupId>
                             <artifactId>custom.login.module.core</artifactId>
-                            <target>/apps/odule/install</target>
+                            <target>/apps/custom-login-module/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>

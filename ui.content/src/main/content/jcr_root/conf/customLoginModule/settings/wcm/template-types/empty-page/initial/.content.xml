@@ -3,5 +3,5 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="odule/components/structure/page"/>
+        sling:resourceType="custom-login-module/components/structure/page"/>
 </jcr:root>

@@ -12,7 +12,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="CustomLoginModule Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:customLoginModule,/apps/odule/components/form/container]"
+                        components="[group:customLoginModule,/apps/custom-login-module/components/form/container]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -21,7 +21,7 @@
                                     assetGroup="media"
                                     assetMimetype="image/*"
                                     droptarget="image"
-                                    resourceType="odule/components/content/image"
+                                    resourceType="custom-login-module/components/content/image"
                                     type="Images"/>
                             </assetToComponentMapping>
                         </cq:authoring>
@@ -33,7 +33,7 @@
             </components>
         </foundation>
     </wcm>
-    <odule jcr:primaryType="nt:unstructured">
+    <custom-login-module jcr:primaryType="nt:unstructured">
         <components jcr:primaryType="nt:unstructured">
             <form jcr:primaryType="nt:unstructured">
                 <container jcr:primaryType="nt:unstructured">
@@ -41,11 +41,11 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="CustomLoginModule Form"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/odule/components/form/button,/apps/odule/components/form/hidden,/apps/odule/components/form/options,/apps/odule/components/form/text]">
+                        components="[/apps/custom-login-module/components/form/button,/apps/custom-login-module/components/form/hidden,/apps/custom-login-module/components/form/options,/apps/custom-login-module/components/form/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </form-container>
                 </container>
             </form>
         </components>
-    </odule>
+    </custom-login-module>
 </jcr:root>

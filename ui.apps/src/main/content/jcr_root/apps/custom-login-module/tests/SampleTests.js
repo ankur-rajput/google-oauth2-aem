@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-new hobs.TestSuite("Custom Login Module Tests", {path:"/apps/odule/tests/SampleTests.js", register: true})
+new hobs.TestSuite("Custom Login Module Tests", {path:"/apps/custom-login-module/tests/SampleTests.js", register: true})
 
     .addTestCase(new hobs.TestCase("Hello World component on english page")
         .navigateTo("/content/customLoginModule/en.html")
