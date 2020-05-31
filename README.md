@@ -1,4 +1,4 @@
-#This repo has been deprecated, please refer this [repo](https://github.com/thegreyteacher/aem-social-login), it also has a detailed doc.
+# This repo has been deprecated, please refer this [repo](https://github.com/thegreyteacher/aem-social-login), it also has a detailed doc.
 
 # google-oauth2-aem
 Google Provider for AEM OAuth authentication handler to login using Google Oauth2
